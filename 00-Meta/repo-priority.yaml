@@ -1,0 +1,18 @@
+version: 1
+pilot:
+  - owner: fayzillo95
+    name: 4_oy_imtihon
+    reason: "NestJS imtihon — o'rtacha hajm, aniq stack"
+
+priority_order:
+  - 4_oy_imtihon
+  - online-courses
+  - e-commerce
+  - e-commerce-backend
+  - telegram_app_backend
+  - telegram_app_front_end
+  - mini-erp
+  - StudentSYStemMenegment
+  - youtubebackend
+  - 6_oy_imtihon
+  - edfix_clone
