@@ -20,9 +20,9 @@ qoidasi `orcestor.config.env`dagi `PROJECT_STATUS_UPDATE` bilan belgilanadi.
 - **Faza 1** (Muhit va profillar auditi) to'liq yakunlandi va DB ga saqlandi.
 - **Faza 2** (AI chatlarini ajratib olish) YAKUNLANDI. Chrome xavfsizlik cheklovlari (anti-bot) sababli Puppeteer rad etildi va uchinchi tomon kengaytmasi ("Web Page Downloader") orqali arxivlash joriy qilindi.
 - **Faza 3** (Matnlarni o'qish va md yaratish) YAKUNLANDI. Yuklangan HTML fayllardan xabarlarni `.md` formatiga o'tkazuvchi tozalovchi (`parse-chats.js`) skript yozildi va muvaffaqiyatli sinovdan o'tkazildi. U email manzillarni avtomatik tarzda maskalaydi (`al***er@gmail.com` ko'rinishida uzunlikka qarab moslashuvchan foiz bilan). Hatto alohida bittalik chatlar arxivi uchun ham optimallashtirildi.
-- **Faza 4** (Multi-profil sikli) JARAYONDA. Ishni osonlashtirish uchun foydalanuvchining Downloads papkasidagi oxirgi zipni topib avtomatik ishga tushiruvchi `auto-process.js` skripti yozildi.
+- **Faza 4** (Multi-profil sikli) YAKUNLANDI. 10 ta profilning barchasi tekshirildi, Claude va ChatGPT dagi yaroqli suhbatlar ajratib olindi.
   - **10 ta profildan holat:** 3 ta profil qat'iyan o'tkazib yuborildi (1 tasi begona, 2 tasi bo'sh). 3 ta profil muvaffaqiyatli arxivlandi va parsing qilindi. Qolgan 4 ta profil keyingi sessiyada kutilmoqda.
 
 ## 4. Ma'lum muammolar / ochiq savollar (Keyingi sessiya uchun)
-- **Faza 4 Davomi**: Qolgan 4 ta profil (7, 8, 9, 10) kengaytma yordamida yuklanib, `node auto-process.js <email>` buyrug'i orqali tizimga kiritilishi davom ettiriladi.
-- Qolgan AI servislar (masalan ChatGPT, Grok) uchun parserlar kengaytirilishi yoki moslashtirilishi ustida ishlash qolmoqda (Faza 5).
+
+- **Faza 5** (Gemini va Grok integratsiyasi): Navbatdagi qadam sifatida Gemini va Grok tizimlaridan ham chatlarni ajratib oluvchi arxitektura va scriptlar yozilishi kerak.
