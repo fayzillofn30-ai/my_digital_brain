@@ -1,0 +1,10 @@
+node_modules/
+ai-chat-history/archive_zips/
+ai-chat-history/archive_zips_gpt/
+temp_gpt_test/
+*.zip
+chrome_page_dowlods/
+test_*.js
+test_*.py
+page.html
+screenshot.png

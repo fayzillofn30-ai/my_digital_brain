@@ -1,3 +1,5 @@
+agy --conversation=81ae6a32-5d9c-40cb-b35b-20ff99f5772a
+
 # 🧠 Digital Brain — Multi-AI Pipeline
 
 > G'oya: Bitta AI'ga hamma ishni yuklamasdan, har bosqich uchun eng mos vositani ishlatib, katta hajmdagi kod tahlilini avtonom ravishda Obsidian bilim bazasiga aylantirish.
